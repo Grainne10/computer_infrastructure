@@ -1,0 +1,1 @@
+Creating a file to save my directories to the repository, as empty folders will not go up.
