@@ -16,5 +16,5 @@ Using codes spaces, I created a new directory structure called data using mkdir.
 3. Task 2 :Timestamps
 In the codespace, I ran the command date, this printed the current date and time . Using double angled brackets, I changed the output direction to a new file "now.txt" creating the file at the same time. date >> now.txt. Then, on the command line, I ran this ten times. By using the double angled brackets , it appends the file and shows the output at each stage the command is run. If I were to use a single angled bracket , >, this would over-write the file each time the command is run. The result of the running this command ten times can be seen in the now.txt file and shows a list of dates and time, in this case the same date and hour but different minutes and seconds.
 
-
-
+3. Task 3 : Formatting Timestamps
+In the codespace, I formatted the date command using YYYYmmdd_HHMMSS, using higher case for year, hour, minute and second , and using lower case for month and day. You can use man date which shows a manual on the date command, it explains the different commands and letters you can use to format your date. When I entered date +"YYYYmmdd_HHMMSS", this shows the date and time in the command line. Next I appended the formatted output date to a file named formatted.txt. I do this by using double angled brackets . I entered, date+ "YYYYmmdd_HHMMSS" >> formatted.txt. This creates a new text file in my folder, if you open this text file you can see the date and time it was created.
