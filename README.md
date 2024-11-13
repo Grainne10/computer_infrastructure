@@ -1,4 +1,5 @@
-# computer_infrastructure
+# computer_infrastruthe url to download the latest data. 
+ture
 Assessment for computer infrastructure
 ** by Grainne Boyle
 
@@ -21,3 +22,14 @@ In the codespace, I formatted the date command using YYYYmmdd_HHMMSS, using high
 
 4. Task 4 : Create Timestamped File
 In the codespace, I used the Touch command to create a new timestamped file. I used backtick to capture the output of the command and use it as part of the touch command. I used touch `date +"YYYYmmdd_HHMMSS"`.txt to create an empty timestamped file.
+
+5. Task 5 : Download Today's weather
+
+ I opened the Met Eireann website and found the weather data for today. I then used wget and   
+ ```wget https://prodapi.metweb.ie/observations/athenry/today  ```
+
+ The wget commands allows you to download files from the Internet into your active directory. then i use wget with -O  and this is used to write the output to a file called weather.json
+
+ ```wget+0 weather.json https://prodapi.metweb.ie/observations/athenry/today  ```
+
+ If you open the file, you can see see the data from athenry in json format.
