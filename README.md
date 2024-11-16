@@ -1,5 +1,4 @@
-# computer_infrastruthe url to download the latest data. 
-ture
+# computer_infrastructure
 Assessment for computer infrastructure
 ** by Grainne Boyle
 
@@ -33,3 +32,13 @@ In the codespace, I used the Touch command to create a new timestamped file. I u
  ```wget+0 weather.json https://prodapi.metweb.ie/observations/athenry/today  ```
 
  If you open the file, you can see see the data from athenry in json format.
+
+ 6. Task 6 : Timestamp the Data
+
+ Using the cURL command,  I downloaded the data again and saved it to a file in my directory with a timestamped name in the format.
+
+ ``` curl -o `date +"%Y%m%d_%H%M%S.json"` https://prodapi.metweb.ie/observations/today```
+This saved the athenry data to a file named "20241116__215129.json which is when the file was created 16th November 2024 at 9:51:29pm. If you open the file you can see the downloaded data from the Athenry weather today.
+
+
+[https://blog.hubspot.com/website/curl-command](https://blog.hubspot.com/website/curl-command) you can send or retrieve data using this command. cURL is short for "client URL". It can be used instead of the wget command. If you were enter the command with the URL, the URL data will print in the terminal. In our case, we have used it to pull the data and save that data to a file with a stamped name in the format YYYYmmdd_HHMMSS
