@@ -1,6 +1,7 @@
 # computer_infrastructure
-Assessment for computer infrastructure
-** by Grainne Boyle
+Assessment for computer infrastructure ** by Grainne Boyle
+
+[Time](https://pixabay.com/photos/clock-pocket-watch-clockwork-3179167/)
 
 # Getting started
 
@@ -54,3 +55,5 @@ Also, I need to change the mode of the file, when I tried to run it is showed pe
 
 
 [https://medium.com/@andrewdass/how-to-execute-sh-files-71d8885d8ef3#:~:text=A%20file%20with%20the%20%E2%80%9C.,files%20in%20Unix%20or%20Linux](https://medium.com/@andrewdass/how-to-execute-sh-files-71d8885d8ef3#:~:text=A%20file%20with%20the%20%E2%80%9C.,files%20in%20Unix%20or%20Linux.)
+
+[Timestamp](https://pixabay.com/photos/clockwork-church-gears-time-clock-4651185/)
