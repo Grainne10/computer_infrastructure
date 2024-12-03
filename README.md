@@ -1,7 +1,7 @@
 # computer_infrastructure
 Assessment for computer infrastructure ** by Grainne Boyle
 
-![https://pixabay.com/photos/clock-pocket-watch-clockwork-3179167/](https://pixabay.com/photos/clock-pocket-watch-clockwork-3179167/)
+![https://cdn.pixabay.com/photo/2018/02/24/20/39/clock-3179167_1280.jpg](https://cdn.pixabay.com/photo/2018/02/24/20/39/clock-3179167_1280.jpg)
 
 # Tasks 
 
@@ -51,4 +51,4 @@ Research :
 
 
 
-![https://pixabay.com/photos/clockwork-church-gears-time-clock-4651185/](https://pixabay.com/photos/clockwork-church-gears-time-clock-4651185/)
+![https://cdn.pixabay.com/photo/2019/11/25/07/31/clockwork-4651185_1280.jpg](https://cdn.pixabay.com/photo/2019/11/25/07/31/clockwork-4651185_1280.jpg)
