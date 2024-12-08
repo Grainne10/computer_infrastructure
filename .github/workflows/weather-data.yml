@@ -1,0 +1,35 @@
+ name: Run weather daily
+
+ Allow manual triggering of the workflow
+  workflow_dispatch:
+
+jobs:
+  collect-weather-data:
+    # Use the latest Ubuntu runner
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    # Step 2: Set up permissions for the script
+    - name: Make script executable
+      run: chmod +x weather.sh
+    
+    # Step 3: Run the weather script
+    - name: Collect Weather Data
+      run: ./weather.sh
+    
+    # Step 4: Configure git user for committing
+    - name: Configure Git
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "<>"
+    
+    # Step 5: Commit and push the new weather data file
+    - name: Commit Weather Data
+      run: |
+        git add .
+        git commit -m "Add weather data from $(date +'%Y-%m-%d')" || echo "No changes to commit"
+        git push
