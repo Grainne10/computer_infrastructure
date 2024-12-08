@@ -1,6 +1,6 @@
  name: Run weather daily
 
- Allow manual triggering of the workflow
+ # Allow manual triggering of the workflow
   workflow_dispatch:
 
 jobs:
