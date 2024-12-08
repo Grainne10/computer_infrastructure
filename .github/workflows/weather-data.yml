@@ -22,8 +22,16 @@ jobs:
     - name: Collect Weather Data
       run: ./weather.sh
     
-    # Step 4: Configure git user for committing
-    - name: Configure Git
+    # Step 4: List downloaded files
+    - name: List downloaded files
       run: |
-        git config user.name "Grainne10"
-        git config user.email "<G00218690@atu.ie>"
+        ls -l data/weather/
+
+    # Step 5: Configure git user for committing
+    - name: Commit and push weather data
+      run: |
+        git add data/weather/*.json
+        git commit -m "Add weather data from $(date +'%Y-%m-%d')" || echo "No changes to commit"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
