@@ -35,5 +35,6 @@ jobs:
         git add data/weather/*.json
         git commit -m "Add weather data from $(date +'%Y-%m-%d')" || echo "No changes to commit"
         git push 
+        git push https://x-access-token:${{ secrets.DAILY_WEATHER_TOKEN }}@github.com/${{ github.repository }} HEAD:main
       env:
-        GITHUB_TOKEN: ${{ secrets.DAILY_WEATHER_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DAILY_WEATHER_TOKEN }}
