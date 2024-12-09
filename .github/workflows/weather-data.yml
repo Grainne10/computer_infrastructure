@@ -21,23 +21,21 @@ jobs:
     - name: Make script executable
       run: chmod +x weather.sh
     
-    # Step 3: Run the weather script
-    - name: Collect Weather Data
-      run: ./weather.sh
-    
-    # Step 4: List downloaded files
-    - name: List downloaded files
+    # Set up Git configuration (necessary for commit and push)
+    - name: Set up Git
       run: |
-        ls -l data/weather/
+       git config user.name "github-actions"
+       git config user.email "github-actions@github.com"
 
-    # Step 5: Configure git user and commit
-    - name: Commit and push weather data
+    # Run the weather.sh script
+    - name: Run weather.sh script
       run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add data/weather/*.json
-        git commit -m "Add weather data from $(date +'%Y-%m-%d')" || echo "No changes to commit"
-        git push 
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-       
+       chmod +x weather.sh
+       ./weather.sh
+
+ # Commit and push changes back to the repository
+    - name: Commit and push changes
+      run: |
+       git add data/weather/
+       git commit -m "Update weather data"
+       git push
