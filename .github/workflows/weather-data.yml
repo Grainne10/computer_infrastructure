@@ -3,6 +3,9 @@ name: Run weather daily
 on:
   # Allow manual triggering of the workflow
   workflow_dispatch:
+  
+  schedule:
+    - cron: '0 10 * * *' # This will run at 10 AM UTC every day
 
 jobs:
   collect-weather-data:
@@ -35,6 +38,6 @@ jobs:
         git add data/weather/*.json
         git commit -m "Add weather data from $(date +'%Y-%m-%d')" || echo "No changes to commit"
         git push 
-        git push https://x-access-token:${{ secrets.DAILY_WEATHER_TOKEN }}@github.com/${{ github.repository }} HEAD:main
       env:
-          GITHUB_TOKEN: ${{ secrets.DAILY_WEATHER_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+       
