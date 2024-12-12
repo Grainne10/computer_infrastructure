@@ -1,11 +1,14 @@
 name: Run weather daily
 
+permissions:
+  contents: write  # Grant write permissions to repository contents (required for commits and push)
+
 on:
   # Allow manual triggering of the workflow
   workflow_dispatch:
   
   schedule:
-    - cron: '0 10 * * *' # This will run at 10 AM UTC every day
+    - cron: '0 14 * * *' # This will run at 2 PM UTC every day
 
 jobs:
   collect-weather-data:

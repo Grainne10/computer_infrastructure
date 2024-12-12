@@ -1,4 +1,7 @@
-# Byte-compiled / optimized / DLL files
+####    
+#https://github.com/github/gitignore/blob/main/Python.gitignore
+####
+#Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -161,8 +164,11 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+#####
+#https://github.com/github/gitignore/blob/main/Global/Windows.gitignore
+####
 
-## Windows git ginore
+# Windows git ginore
 
 # Windows thumbnail cache files
 Thumbs.db
