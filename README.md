@@ -1,7 +1,7 @@
 # computer_infrastructure
 Assessment for computer infrastructure ** by Grainne Boyle
 
-![clockimage](/workspaces/computer_infrastructure/img/watch.jpg)
+![clockimage](img/watch.jpg)
 # Tasks 
 
 1. The first step is to create the repository in Github. I then cloned this repository in my own directory in my personal files.
@@ -17,4 +17,4 @@ Research :
 
 
 
-![clock2image](/workspaces/computer_infrastructure/img/clockwork.jpg)
+![clock2image](img/clockwork.jpg)
