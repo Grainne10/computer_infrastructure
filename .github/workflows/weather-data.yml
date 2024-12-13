@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   
   schedule:
-    - cron: '0 14 * * *' # This will run at 2 PM UTC every day
+    - cron: '0 3 * * *' # This will run at 3 AM UTC every day
 
 jobs:
   collect-weather-data:
