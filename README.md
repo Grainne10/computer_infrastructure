@@ -2,7 +2,7 @@
 Assessment for computer infrastructure ** by Grainne Boyle
 
 ![clockimage](img/watch.jpg)
-# Tasks 
+# Tasks
 
 1. The first step is to create the repository in Github. I then cloned this repository in my own directory in my personal files.
 It is important to regularly push this to my own files.
