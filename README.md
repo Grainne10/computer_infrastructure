@@ -9,7 +9,7 @@
 1. [Overview](Overview)
 2. [Contents](Repository-Contents)
 3. [Tasks](Tasks)
-
+4. [Research](Research)
 ## Overview
 
 I am a student at the [Atlantic Technological University](https://www.atu.ie/), Galway, studying the Higher Diploma in Science in Data Analytics on a part-time basis over 2 years.  
