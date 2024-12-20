@@ -80,6 +80,9 @@ Manually Trigger the Workflow: To manually trigger the workflow, go to the Actio
 6. [Yaml Files](https://spacelift.io/blog/yaml) - I have saved my weather data workflow in a yaml file. YAML is used for configuration files that are parsed and read by a programming language or framework. The programming languages reads the text file, breaks it down into its components and converts it into data that the program can work with.
 7. [Github Actions/workflow](https://docs.github.com/en/actions/writing-workflows/quickstart) - I researched how to set up the workflow using this clear documentation alongside following the classes for this course.
 8. [Internal Links](https://stackoverflow.com/questions/6695439/how-to-link-to-a-named-anchor-in-multimarkdown#7015050) - I tried several different ways of fixing the Internal links, they worked in codespaces but not in the repository.
+9. [ChatGPT and ClaudeAI] - I used these AI tools for some guidance and re-wording on my project. All thoughts and ideas are my own, I spent alot of time to understanding the commands, tasks and workflow. 
+10.[Branches](https://docs.github.com/en/codespaces/developing-in-a-codespace/using-source-control-in-your-codespace#creating-or-switching-branches) - I had problems with git push because I created an extra branch, I was able to resolve this with my lecturer.
+
 
 
 ------------------------------------------
