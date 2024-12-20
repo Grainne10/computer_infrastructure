@@ -6,10 +6,10 @@
 
 **README Contents:**
 
-1. [Overview](./README.md/Overview)
-2. [Contents](./README.md/Repository-Contents)
-3. [Tasks](./README.md/Tasks)
-4. [Research](./README.md/Research)
+1. [Overview](README.md/#overview)
+2. [Contents](README.md/#repository-contents)
+3. [Tasks](README.md/#tasks)
+4. [Research](README.md/#research)
 
 ## Overview
 
@@ -74,7 +74,10 @@ Manually Trigger the Workflow: To manually trigger the workflow, go to the Actio
 3. [Met Eireann](https://www.met.ie/climate/available-data/daily-data) - reviewing the daily summary information from one of Met Eireanns weather stations.
 4. [GitHub Permissions](https://www.raulmelo.me/en/til/how-to-solve-permission-to-x-denied-to-github-actions-bot#:~:text=Go%20to%20your%20project%20Settings,button%20and%20rerun%20your%20pipeline.) - I had problems getting my workflow to run , this explained how to give permission in my repository to the github.bot on running the workflow.
 5. [Cron](https://en.wikipedia.org/wiki/Cron) - Understanding what Cron is and how it works. I used the cron command-line utility as a job scheduler to run the script periodically at a fixed time daily.
-6. [Github Actions/workflow](https://docs.github.com/en/actions/writing-workflows/quickstart) - I researched how to set up the workflow using this clear documentation alongside following the classes for this course.
+6. [Yaml Files](https://spacelift.io/blog/yaml) - I have saved my weather data workflow in a yaml file. YAML is used for configuration files that are parsed and read by a programming language or framework. The programming languages reads the text file, breaks it down into its components and converts it into data that the program can work with.
+7. [Github Actions/workflow](https://docs.github.com/en/actions/writing-workflows/quickstart) - I researched how to set up the workflow using this clear documentation alongside following the classes for this course.
+8. [Internal Links](https://stackoverflow.com/questions/6695439/how-to-link-to-a-named-anchor-in-multimarkdown#7015050) - I tried several different ways of fixing the Internal links, they worked in codespaces but not in the repository.
+
 
 ------------------------------------------
 ## END
